@@ -7,11 +7,13 @@
 //
 
 import UIKit
-
+import ModuleB
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let b = ModuleViewController()
+        b.runModuleA()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
